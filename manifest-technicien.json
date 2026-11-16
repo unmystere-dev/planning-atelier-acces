@@ -1,20 +1,21 @@
 {
+  "id": "/planning-atelier-acces/technicien",
   "name": "Planning techniciens",
   "short_name": "Planning",
-  "start_url": "./technicien",
-  "scope": "./",
+  "start_url": "/planning-atelier-acces/technicien",
+  "scope": "/planning-atelier-acces/technicien",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "lang": "fr",
   "icons": [
     {
-      "src": "icone.png",
+      "src": "/planning-atelier-acces/icone-technicien.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "icone.png",
+      "src": "/planning-atelier-acces/icone-technicien.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"

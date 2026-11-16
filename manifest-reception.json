@@ -1,20 +1,21 @@
 {
+  "id": "/planning-atelier-acces/reception",
   "name": "Réception atelier",
   "short_name": "Réception",
-  "start_url": "./reception",
-  "scope": "./",
+  "start_url": "/planning-atelier-acces/reception",
+  "scope": "/planning-atelier-acces/reception",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "lang": "fr",
   "icons": [
     {
-      "src": "icone.png",
+      "src": "/planning-atelier-acces/icone-reception.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "icone.png",
+      "src": "/planning-atelier-acces/icone-reception.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
