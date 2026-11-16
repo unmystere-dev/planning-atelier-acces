@@ -1,8 +1,26 @@
 <!DOCTYPE html>
-<html lang="fr"><head><meta charset="utf-8"><title>Planning atelier</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="fr"><head><meta charset="utf-8">
+<title>Planning atelier</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ffffff">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Planning">
+<link rel="apple-touch-icon" href="icone.png">
 <link rel="icon" type="image/png" href="icone.png">
-<style>body{font-family:system-ui,sans-serif;margin:0;padding:24px;background:#f0f3f8;text-align:center}img{width:200px;margin:12px auto}a{display:block;margin:14px auto;max-width:360px;padding:18px;border-radius:14px;background:#1f3864;color:#fff;font-size:20px;font-weight:700;text-decoration:none}p{color:#445}</style></head>
-<body><img src="icone.png" alt="Ippolito Mobilités Froid">
-<a href="technicien">Planning techniciens</a><a href="reception">Réception</a><a href="astreinte">Astreinte</a>
-<p>Ouvrez le lien voulu puis « Ajouter à l'écran d'accueil ».</p></body></html>
+<link rel="manifest" href="manifest-accueil.json">
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;margin:0;padding:20px;background:#f0f3f8;text-align:center;color:#1f3864}
+img{width:240px;max-width:70%;margin:8px auto 4px;display:block}
+h1{font-size:20px;margin:6px 0 18px}
+.t{display:flex;align-items:center;justify-content:center;gap:12px;margin:14px auto;max-width:380px;min-height:92px;border-radius:16px;border:1px solid #d9dee8;background:#fff;color:#1f3864;font-size:21px;font-weight:700;text-decoration:none}
+.t:active{background:#e6ebf3}
+.t span{font-size:34px}
+</style></head>
+<body>
+<img src="icone.png" alt="Ippolito Mobilités Froid">
+<h1>Planning atelier</h1>
+<a class="t" href="technicien"><span>🔧</span>Planning techniciens</a>
+<a class="t" href="reception"><span>📋</span>Réception</a>
+<a class="t" href="astreinte"><span>🚨</span>Astreinte</a>
+</body></html>
