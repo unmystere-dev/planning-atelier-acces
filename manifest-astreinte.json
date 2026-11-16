@@ -1,0 +1,23 @@
+{
+  "name": "Astreinte atelier",
+  "short_name": "Astreinte",
+  "start_url": "./astreinte",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "icone.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icone.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
